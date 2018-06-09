@@ -1,0 +1,30 @@
+## dT Jakob Variable Concept##
+
+Foundry: dooType
+Designers: Eduilson Coan & Gustavo Soares
+Website: www.dooType.com
+
+Year of creation: 2018
+Name: dTJakobVariableConceptGX
+Version: 1.0
+Character Set: 933 Glyphs
+
+Opentype Features:
+- Standard Ligatures - INLINE
+- Contextual Alternates - MAIN SHAPE
+- Discretionary Ligatures - SHADOW
+
+ 
+Usage: Display
+
+Supported Languages: Afrikaans, Albanian, Asu, Basque, Bemba, Bena, Bosnian, Catalan, Chiga, Congo Swahili, Cornish, Croatian, Czech, Dutch, Embu, English, Esperanto, Estonian, Filipino, Finnish, French, Galician, Gusii, Hungarian, Indonesian, Irish, Italian, Kabuverdianu, Kalenjin, Kamba, Kikuyu, Kinyarwanda, Latvian, Luo, Luyia, Machame, Makhuwa-Meetto, Makonde, Malagasy, Malay, Maltese, Manx, Maori, Meru, Morisyen, North Ndebele, Nyankole, Oromo, Portuguese, Romanian, Romansh, Rombo, Rundi, Rwa, Samburu, Sango, Sangu, Sena, Serbian (Latin), Shambala, Shona, Slovak, Slovenian, Soga, Somali, Spanish, Swahili, Swedish, Swiss German, Taita, Teso, Vunjo, Welsh, Zulu
+
+
+Get all dooType fonts with 50% OFF with a promocode DOOTYPE2018 
+https://www.myfonts.com/foundry/dooType/  until 31 Dec - 2018.  
+
+
+dT Jakob Variable Concept is part of dT Jakob project (jakob.dootype.com)
+
+dT Jakob started as a revival by Gustavo Soares for Paul van der Laan’s class at the Type and Media Masters, in The Hague, NL – back in 2007. There are quite a few excelent geometric sans typefaces available, but we did want to make our contribution and have a fine geometric face to offer. dT Jakob was born out of Erbar, by Jakob Erbar, one of the very first geometric sans, released in metal around 1926. Our goal was to make a versatile typeface, that handles display and text typography beautifully. To achieve that we designed a complete range of weights, matching italics and lots of OpenType Features.
+  
