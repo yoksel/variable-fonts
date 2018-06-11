@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'dTJakobVariable';
+    src: url('../fonts/dT_Jakob_VariableConcept/dTJakobVariableConceptGX.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'slovic';
+    src: url('../fonts/slovic/Variable/Slovic_Demo_VarGX.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+HTML, BODY {
+    height: 100%;
+}
+
+BODY {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    background-image: repeating-linear-gradient(-45deg,
+        rgba(0,0,0,.5), rgba(0,0,0,.5) 10px,
+        transparent 10px, transparent 20px);
+    color: #FFF;
+}
+
+.hidden {
+    display: none;
+}
+
+.fonts {
+  font-size: 180px;
+  text-align: center;
+}
+
+.dTJakob {
+    font-family: 'dTJakobVariable';
+
+    &--0 {
+        font-feature-settings: 'liga' 0, 'dlig' 0, 'calt' 0
+    }
+    &--liga-1 {
+        font-feature-settings: 'liga' 1, 'dlig' 0, 'calt' 0
+    }
+    &--dlig-1 {
+        font-feature-settings: 'liga' 0, 'dlig' 1, 'calt' 0
+    }
+    &--calt-1 {
+        font-feature-settings: 'liga' 0, 'dlig' 0, 'calt' 1
+    }
+
+    &--layered {
+        position: relative;
+        font-feature-settings: 'liga' 0, 'dlig' 0, 'calt' 1;
+
+        &::before,
+        &::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            transition: all .25s;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-name: color;
+        }
+
+        &::before {
+            font-feature-settings: 'liga' 1, 'dlig' 0, 'calt' 0;
+            animation-duration: 7s;
+            color: skyblue;
+        }
+
+        &:hover::before {
+            top: -90%;
+        }
+
+        &::after {
+            z-index: -1;
+            font-feature-settings: 'liga' 0, 'dlig' 1, 'calt' 0;
+            color: yellowgreen;
+        }
+
+        &:hover::after {
+            top: 90%;
+        }
+
+
+    }
+}
+
+@keyframes color {
+    0% {
+        color: tomato;
+    }
+    10% {
+        color: darkorange;
+    }
+    20% {
+        color: gold;
+    }
+    30% {
+        color: yellowgreen;
+    }
+    40% {
+        color: lightseagreen;
+    }
+    50% {
+        color: teal;
+    }
+    60% {
+        color: lightseagreen;
+    }
+    70% {
+        color: yellowgreen;
+    }
+    80% {
+        color: gold;
+    }
+    90% {
+        color: darkorange;
+    }
+    100% {
+        color: tomato;
+    }
+}
+
+.range-wrapper {
+    font-size: 20px;
+}
+
+.range {
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.slovic {
+    font-family: 'slovic';
+}

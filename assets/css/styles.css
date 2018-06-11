@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'dTJakobVariable';
+  src: url("../fonts/dT_Jakob_VariableConcept/dTJakobVariableConceptGX.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'slovic';
+  src: url("../fonts/slovic/Variable/Slovic_Demo_VarGX.ttf");
+  font-weight: normal;
+  font-style: normal; }
+HTML, BODY {
+  height: 100%; }
+
+BODY {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  background-image: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 10px, transparent 10px, transparent 20px);
+  color: #FFF; }
+
+.hidden {
+  display: none; }
+
+.fonts {
+  font-size: 180px;
+  text-align: center; }
+
+.dTJakob {
+  font-family: 'dTJakobVariable'; }
+  .dTJakob--0 {
+    -webkit-font-feature-settings: "liga" 0, "dlig" 0, "calt" 0;
+            font-feature-settings: "liga" 0, "dlig" 0, "calt" 0; }
+  .dTJakob--liga-1 {
+    -webkit-font-feature-settings: "liga" 1, "dlig" 0, "calt" 0;
+            font-feature-settings: "liga" 1, "dlig" 0, "calt" 0; }
+  .dTJakob--dlig-1 {
+    -webkit-font-feature-settings: "liga" 0, "dlig" 1, "calt" 0;
+            font-feature-settings: "liga" 0, "dlig" 1, "calt" 0; }
+  .dTJakob--calt-1 {
+    -webkit-font-feature-settings: "liga" 0, "dlig" 0, "calt" 1;
+            font-feature-settings: "liga" 0, "dlig" 0, "calt" 1; }
+  .dTJakob--layered {
+    position: relative;
+    -webkit-font-feature-settings: 'liga' 0, 'dlig' 0, 'calt' 1;
+            font-feature-settings: 'liga' 0, 'dlig' 0, 'calt' 1; }
+    .dTJakob--layered::before, .dTJakob--layered::after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      transition: all .25s;
+      -webkit-animation-duration: 5s;
+              animation-duration: 5s;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-name: color;
+              animation-name: color; }
+    .dTJakob--layered::before {
+      -webkit-font-feature-settings: 'liga' 1, 'dlig' 0, 'calt' 0;
+              font-feature-settings: 'liga' 1, 'dlig' 0, 'calt' 0;
+      -webkit-animation-duration: 7s;
+              animation-duration: 7s;
+      color: skyblue; }
+    .dTJakob--layered:hover::before {
+      top: -90%; }
+    .dTJakob--layered::after {
+      z-index: -1;
+      -webkit-font-feature-settings: 'liga' 0, 'dlig' 1, 'calt' 0;
+              font-feature-settings: 'liga' 0, 'dlig' 1, 'calt' 0;
+      color: yellowgreen; }
+    .dTJakob--layered:hover::after {
+      top: 90%; }
+
+@-webkit-keyframes color {
+  0% {
+    color: tomato; }
+  10% {
+    color: darkorange; }
+  20% {
+    color: gold; }
+  30% {
+    color: yellowgreen; }
+  40% {
+    color: lightseagreen; }
+  50% {
+    color: teal; }
+  60% {
+    color: lightseagreen; }
+  70% {
+    color: yellowgreen; }
+  80% {
+    color: gold; }
+  90% {
+    color: darkorange; }
+  100% {
+    color: tomato; } }
+
+@keyframes color {
+  0% {
+    color: tomato; }
+  10% {
+    color: darkorange; }
+  20% {
+    color: gold; }
+  30% {
+    color: yellowgreen; }
+  40% {
+    color: lightseagreen; }
+  50% {
+    color: teal; }
+  60% {
+    color: lightseagreen; }
+  70% {
+    color: yellowgreen; }
+  80% {
+    color: gold; }
+  90% {
+    color: darkorange; }
+  100% {
+    color: tomato; } }
+.range-wrapper {
+  font-size: 20px; }
+
+.range {
+  margin: 0 10px;
+  vertical-align: middle; }
+
+.slovic {
+  font-family: 'slovic'; }
