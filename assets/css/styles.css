@@ -27,11 +27,15 @@ BODY {
   font-size: 16px;
   text-align: center;
   /*font-variation-settings: "ital" 1;*/
-  font-variation-settings: "opsz" 72,"ital" 1,"wght" 1, "wdth" 200, "slnt" 1; }
+  font-variation-settings: "opsz" 72,"ital" 1,"wght" 50, "wdth" 400, "slnt" 1; }
   .fonts H1 {
     font-size: 100px;
     flex-basis: 100%;
     margin: .2em 0; }
+  .fonts p {
+    font-family: VotoSerif;
+    -webkit-font-feature-settings: 'onum' off;
+            font-feature-settings: 'onum' off; }
 
 .fonts__list {
   margin: 0 20px;
